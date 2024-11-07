@@ -1,0 +1,21 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rhtap
+  title: RHTAP-IDP Authors
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: karthikjeeyar
+spec:
+  profile:
+    displayName: Karthik Jeeyar
+    email: karthik.jk11@gmail.com
+  memberOf: 
+     - rhtap
